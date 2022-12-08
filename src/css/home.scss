@@ -1,0 +1,52 @@
+.img-une img {
+  width: 100%
+}
+
+#fulltext {
+  width: 100%
+}
+
+#fulltext input {
+  border-radius: 4px
+}
+
+#fulltext input::-moz-placeholder {
+  color: #495057
+}
+
+#fulltext input:-ms-input-placeholder {
+  color: #495057
+}
+
+#fulltext input::placeholder {
+  color: #495057
+}
+
+#fulltext .suggest {
+  width: 100%;
+  position: absolute;
+  top: 42px;
+  z-index: 100
+}
+
+#fulltext .suggest ul {
+  width: 100%
+}
+
+#fulltext .caps {
+  text-transform: capitalize
+}
+
+#fulltext div.top {
+  background-color: #fff;
+  border: 1px #66696c solid;
+  width: 100%
+}
+
+#fulltext div.top img {
+  margin-right: 5px
+}
+
+#addon-search {
+  height: calc(2.75rem - 2px)
+}
