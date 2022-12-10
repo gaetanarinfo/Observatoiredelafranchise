@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="org.obs.app" version="1.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="org.obs.app" version="1.0.2" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>OBS</name>
     <description>Vous souhaitez créer une entreprise qui marche ? Découvrez les avantages de la franchise et comparez plus de 2000 réseaux pour trouver la franchise qui vous correspond.</description>
     <author email="support@obs.com" href="https://www.observatoiredelafranchise.fr/">

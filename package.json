@@ -1,8 +1,8 @@
 {
   "name": "obs",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Vous souhaitez créer une entreprise qui marche ? Découvrez les avantages de la franchise et comparez plus de 2000 réseaux pour trouver la franchise qui vous correspond.",
-  "productName": "OBS",
+  "productName": "OBS Franchise",
   "author": "Seigneur Gaëtan",
   "private": true,
   "scripts": {

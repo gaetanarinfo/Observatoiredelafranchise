@@ -11,7 +11,9 @@
 
         <q-space></q-space>
 
-        <q-btn flat round dense icon="search" size="lg" color="grey" />
+        <q-btn flat tag="a"
+          href="https://www.observatoiredelafranchise.fr/creation-entreprise/recherche-franchise.htm?_apport=&_villes="
+          round dense icon="search" size="lg" color="grey" />
 
       </q-toolbar>
 
