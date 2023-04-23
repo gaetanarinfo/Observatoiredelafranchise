@@ -1,33 +1,33 @@
-# observatoiredelafranchise (observatoiredelafranchise)
+This is a template project for Android Studio that allows you to create an android webview application in minutes. You can use it to create a simple app for your website or as a starting point for your HTML5 based android app.
 
-Vous souhaitez créer une entreprise qui marche ? Découvrez les avantages de la franchise et comparez plus de 2000 réseaux pour trouver la franchise qui vous correspond.
+### Getting started
 
-## Install the dependencies
-```bash
-yarn
-# or
-npm install
-```
+[Download](https://github.com/slymax/webview/archive/master.zip) or clone this repository and import it into Android Studio.
 
-### Start the app in development mode (hot-code reloading, error reporting, etc.)
-```bash
-quasar dev
-```
+### Using a remote source
 
+If you want to create an app that shows the content of a remote website
 
-### Lint the files
-```bash
-yarn lint
-# or
-npm run lint
-```
+1. uncomment line **24** in `MainActivity.java` and replace `https://example.com` with your url
 
+	```java
+	mWebView.loadUrl("https://example.com");
+	```
 
+2. open the `MyWebViewClient.java` file and replace `example.com` on line **15** with your hostname
 
-### Build the app for production
-```bash
-quasar build
-```
+	```java
+	hostname = "example.com";
+	```
 
-### Customize the configuration
-See [Configuring quasar.config.js](https://v2.quasar.dev/quasar-cli-vite/quasar-config-js).
+### Using a local source
+
+If you want to create a local HTML5 android app
+
+1. uncomment line **27** in `MainActivity.java`
+
+	```java
+	mWebView.loadUrl("file:///android_asset/index.html");
+	```
+
+2. put all your files (including your `index.html`) in the `assets` directory
